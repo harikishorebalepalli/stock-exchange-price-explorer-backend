@@ -3,7 +3,6 @@ package com.example.stockexchangepriceexplorer.service;
 import com.example.stockexchangepriceexplorer.dao.StockRepo;
 import com.example.stockexchangepriceexplorer.model.Stock;
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

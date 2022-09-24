@@ -1,7 +1,6 @@
 package com.example.stockexchangepriceexplorer.model;
 
 import java.time.LocalDate;
-import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,6 +29,9 @@ public class Stock {
 
   @Column(name = "symbol")
   private String name;
+
+  @Column(name = "open")
+  private Double openPrice;
 
   @Column(name = "close")
   private Double closePrice;

@@ -36,7 +36,6 @@ public class StockController {
       LocalDate start = null,  end = null;
       if(startDate != null) start =  LocalDate.parse(startDate);
       if(endDate != null) end = LocalDate.parse(endDate);
-      System.out.println(start +" "+end);
       LOGGER.info("Request received for fetching stock prices");
       return stockService.fetchStockPrices(stockName,start,end);
   }
